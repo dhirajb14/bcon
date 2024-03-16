@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bachhav Construction - Building Dreams, Building Futures</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .services {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .service {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 20px;
+    }
+    .portfolio {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .portfolio-item {
+      flex: 1;
+      margin: 10px;
+    }
+    .portfolio-item img {
+      width: 100%;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Bachhav Construction</h1>
+    <h2>Your Trusted Partner in Construction</h2>
+    <nav>
+      <a href="#about">About Us</a>
+      <a href="#services">Our Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <div id="about" class="container">
+    <h2>About Us</h2>
+    <p>Bachhav Construction is a leading construction company committed to delivering excellence in every project we undertake. With years of experience and a dedicated team of professionals, we specialize in turning your visions into reality.</p>
+  </div>
+
+  <div id="services" class="container">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Residential Construction</h3>
+        <p>From custom homes to renovations, we bring your dream home to life.</p>
+      </div>
+      <div class="service">
+        <h3>Commercial Construction</h3>
+        <p>We offer comprehensive solutions for commercial projects of any scale.</p>
+      </div>
+      <div class="service">
+        <h3>Remodeling & Renovation</h3>
+        <p>Transform your space with our expert remodeling services.</p>
+      </div>
+      <div class="service">
+        <h3>Interior Design</h3>
+        <p>Elevate your interiors with our creative design solutions.</p>
+      </div>
+      <div class="service">
+        <h3>Project Management</h3>
+        <p>Leave the complexities to us; we manage projects from conception to completion.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio" class="container">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/300" alt="Project 1">
+      </div>
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/300" alt="Project 2">
+      </div>
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/300" alt="Project 3">
+      </div>
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/300" alt="Project 4">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Contact us: <a href="mailto:bachhav.login@gmail.com">bachhav.login@gmail.com</a></p>
+    <p>© 2024 Bachhav Construction. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
